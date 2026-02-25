@@ -21,3 +21,9 @@ fs.appendFile("myfile.text", " Welcome to NodeJS", (err) => {
     if (err) throw err;
     console.log("File Updated Successfully");
 });
+
+//delete file
+fs.unlink("myfile.text", (err) => {
+    if (err) throw err;
+    console.log("File Deleted Successfully");
+});
