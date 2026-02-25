@@ -17,7 +17,7 @@ fs.readFile("myfile.text", "utf8", (err, data) => {
 
 //update file
 
-fs.appendFile("myfile.text", " Welcome to NodeJS", (err) => {
+fs.appendFile("myfile.textnitin", " Welcome to NodeJS", (err) => {
     if (err) throw err;
     console.log("File Updated Successfully");
 });
